@@ -1,6 +1,5 @@
 import {
   ADD_TO_CART,
-  GET_CART_ITEM_COUNT,
   GET_USER_LIST,
   REMOVE_FROM_CART,
   SET_USER_DATA,
@@ -13,7 +12,7 @@ export function addToCart(item: any) {
   };
 }
 
-export function removeFromCart(item: any) {
+export function removeFromCart(item: number) {
   return {
     type: REMOVE_FROM_CART,
     data: item,

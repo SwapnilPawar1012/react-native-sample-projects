@@ -1,4 +1,4 @@
-import {ADD_TO_CART, GET_CART_ITEM_COUNT, REMOVE_FROM_CART} from './constants';
+import {ADD_TO_CART, REMOVE_FROM_CART} from './constants';
 
 const initialState: any[] = [];
 
