@@ -9,7 +9,3 @@ interface Product {
   ratingCount: number;
   tags: string[];
 }
-
-// interface ReduxState {
-//   cartReducer: Product[];
-// }
